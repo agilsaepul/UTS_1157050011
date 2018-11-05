@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agil.utsmobpro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/agil"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/agil"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.agil.utsmobpro.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.example.agil.utsmobpro.ListMatchActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.agil.utsmobpro.MainActivity" />
+        </activity>
+        <activity android:name="com.example.agil.utsmobpro.DetailMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.agil.utsmobpro.ListMatchActivity" />
+        </activity>
+        <activity android:name="com.example.agil.utsmobpro.SpalshScreenActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">INDONESIA PES LEAGUE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Liga PES Indonesia</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutme"><![CDATA[Nama saya Agil Saepul Muharam, lahir di Garut pada 4 Juni 1997, jadi umur saya sekarang adalah 21thn, saat ini saya masih menjadi mahasiswa UIN SGD BDG jurusan Teknik Informatika angkatan 2015, insyaAllah tahun depan saya lulus dan mendapat gelar Sarjana Teknik. Alamat: Nagreg, No. Tlp. 085219538411]]></string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="club">Club</string>
+    <string name="vs">VS</string>
+    <string name="score">Score</string>
+</resources>
